@@ -24,7 +24,7 @@ const ChatContent = ({selectedUser, setSelectedUser}) => {
               />
             </StyledChatContentScreen>
             <RightChatFlexUser>
-            <div style={{margin: '0 auto'}}>
+              <div style={{margin: '0 auto'}}>
                 <div
                   style={{
                     display: 'flex',
@@ -134,7 +134,7 @@ const ChatContent = ({selectedUser, setSelectedUser}) => {
                             Tashxis nomi,Lorem ipsum dolor sit
                           </p>
                           <p style={{fontSize: '14px', color: '#666'}}>
-                            Dorilar ro'yxati, Lorem, ipsum.....
+                            Dorilar royxati, Lorem, ipsum.....
                           </p>
                         </div>
                       </div>

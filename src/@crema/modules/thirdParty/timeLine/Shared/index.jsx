@@ -2,13 +2,10 @@ import React, {useState, useEffect, useRef} from 'react';
 import './style.scss';
 import {Dropdown, Space} from 'antd';
 import DocViewer, {DocViewerRenderers} from '@cyntler/react-doc-viewer';
-
 import gif from '../gif.gif';
-
 const index = () => {
   const [hide, setHide] = useState(true);
   const [right, setRight] = useState(false);
-
   const docs = [
     {
       uri: ' https://calibre-ebook.com/downloads/demos/demo.docx',
@@ -27,7 +24,6 @@ const index = () => {
     },
   ];
   return (
-
     <section>
       <div className='container'>
         <div className='home__m'>
@@ -57,7 +53,6 @@ const index = () => {
                 </svg>
                 <p>Create</p>
               </div>
-
               <div className='crud__card opacity__1'>
                 <svg
                   viewBox='0 0 24 24'
@@ -76,7 +71,6 @@ const index = () => {
                 </svg>
                 <p>Upload</p>
               </div>
-
               <div className='crud__card opacity__1'>
                 <svg
                   viewBox='0 0 24 24'
@@ -100,7 +94,6 @@ const index = () => {
                 </svg>
                 <p>Create Folder</p>
               </div>
-
               <div className='crud__card opacity__1'>
                 <svg
                   viewBox='0 0 24 24'
@@ -126,7 +119,6 @@ const index = () => {
                 </svg>
                 <p>Record</p>
               </div>
-
               <div className='crud__card opacity__1'>
                 <svg
                   viewBox='0 0 24 24'
@@ -152,7 +144,6 @@ const index = () => {
                 </svg>
                 <p>Edit Doc</p>
               </div>
-
               <div className='crud__card opacity__1'>
                 <svg
                   viewBox='0 0 64 64'
@@ -175,7 +166,6 @@ const index = () => {
                 <p>Get signatures</p>
               </div>
             </div>
-
             <div className='folder__style'>
               <div className='fs__title'>
                 <p>Suggested from your activity</p>
@@ -223,7 +213,6 @@ const index = () => {
                   </div>
                 </button>
               </div>
-
               <div
                 className=''
                 style={hide ? {display: 'flex'} : {display: 'none'}}
@@ -236,7 +225,6 @@ const index = () => {
                 </div>
               </div>
             </div>
-
             <div className='all__docs'>
               <h3>Name</h3>
               <div className='doc__card' onClick={() => setRight(!right)}>
@@ -270,9 +258,7 @@ const index = () => {
                 </div>
               </div>
             </div>
-
           </div>
-
           <div
             style={right ? {width: '40%'} : {width: '0%', overflow: 'hidden'}}
             className='right__'
@@ -464,7 +450,6 @@ const index = () => {
                 </div>
               </div>
             </div>
-
             <div className='right__c'>
               <DocViewer
                 documents={docs}
@@ -472,7 +457,6 @@ const index = () => {
                 style={{height: '200vh'}}
               />
             </div>
-            
           </div>
         </div>
       </div>
