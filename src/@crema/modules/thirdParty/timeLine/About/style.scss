@@ -1,0 +1,163 @@
+.home__wrapper {
+  width: 65%;
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  flex-direction: column;
+  padding: 10px 20px;
+  .search__ {
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.366);
+    height: 48px;
+    width: 100%;
+    padding: 4px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    &:hover {
+      border-color: black;
+    }
+  }
+
+  .folder__style {
+    .fs__title {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      color: #000;
+
+      button {
+        background: transparent;
+        border-radius: 6px;
+        &:hover {
+          background: #fcf2e3;
+        }
+      }
+    }
+
+    .fs__style {
+      margin: 20px auto;
+      display: grid;
+      place-content: center;
+      background: #f7f5f2;
+      cursor: pointer;
+    }
+
+    .fs__about {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+
+      &--info {
+        p {
+          cursor: pointer;
+          color: #000;
+          &:hover {
+            text-decoration: underline;
+          }
+        }
+      }
+
+      span {
+        cursor: pointer;
+        color: #00000094;
+        &:hover {
+          text-decoration: underline;
+        }
+      }
+    }
+  }
+
+  .home__crud {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    .crud__card {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      border-radius: 2px;
+      padding: 12px;
+      width: 100%;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+
+      p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+      }
+    }
+
+    .opacity__1 {
+      &:hover {
+        background: #f7f5f2;
+      }
+    }
+  }
+  .crud__card:nth-child(1) {
+    background: rgb(0, 145, 255);
+    color: #fff;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .activity__ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .activiy__card {
+      color: #000;
+      background: #fcf2e3;
+      border-radius: 12px;
+      padding: 4px 8px;
+      width: 100px;
+    }
+  }
+}
+
+.settings__ {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .dr__ {
+    display: grid;
+    place-content: center;
+  }
+  p {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1a1918;
+  }
+}
+
+.setting__item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.uploads__ {
+  margin: 40px auto;
+  height: calc(80vh - 350px);
+  border: 2px dashed #575450;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  place-content: center;
+  .drop__ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #575450;
+  }
+
+  .activiy__card1 {
+    color: #000;
+    background: #fcf2e3;
+    border-radius: 12px;
+    padding: 4px 8px;
+  }
+}

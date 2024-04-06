@@ -1,0 +1,115 @@
+.home__wrapper {
+  width: 65%;
+  display: flex;
+  align-items: start;
+  gap: 16px;
+  padding: 10px 20px;
+  flex-direction: column;
+  .search__ {
+    outline: none;
+    border: 1px solid rgba(128, 128, 128, 0.366);
+    height: 48px;
+    width: 100%;
+    padding: 4px 16px;
+    border-radius: 4px;
+    transition: all 0.3s ease-out;
+    &:hover {
+      border-color: black;
+    }
+  }
+
+  .home__crud {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 100%;
+    .crud__card {
+      display: flex;
+      align-items: start;
+      flex-direction: column;
+      border-radius: 2px;
+      padding: 12px;
+      width: 100%;
+      cursor: pointer;
+      transition: all 0.15s ease-in-out;
+      border: 1px solid #0000002a;
+      p {
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 16px;
+      }
+    }
+
+    .opacity__1 {
+      &:hover {
+        background: #f7f5f2;
+      }
+    }
+  }
+
+  .crud__card:nth-child(1) {
+    background: rgb(0, 145, 255);
+    color: #fff;
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+
+  .activity__ {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    .activiy__card {
+      color: #000;
+      background: #fcf2e3;
+      border-radius: 12px;
+      padding: 4px 8px;
+      width: 100px;
+    }
+  }
+}
+
+.settings__ {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  .dr__ {
+    display: grid;
+    place-content: center;
+  }
+  p {
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1a1918;
+  }
+}
+
+.setting__item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.uploads__ {
+  margin: 40px auto;
+  height: calc(80vh - 350px);
+  border: 2px dashed #575450;
+  width: 100%;
+  display: grid;
+  gap: 10px;
+  place-content: center;
+  .drop__ {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 5px;
+    color: #575450;
+  }
+
+  .activiy__card1 {
+    color: #000;
+    background: #fcf2e3;
+    border-radius: 12px;
+    padding: 4px 8px;
+  }
+}

@@ -1,0 +1,39 @@
+.user__inform {
+  display: flex;
+  align-items: start;
+  gap: 250px;
+  .first__1 {
+    display: flex;
+    align-items: start;
+    flex-direction: column;
+    gap: 40px;
+    div {
+      p {
+        font-weight: 500;
+        font-size: 9px;
+        color: #1d252c;
+      }
+
+      span {
+        font-size: 12px;
+        color: #1d252c;
+      }
+
+      a {
+        margin-top: 10px;
+        padding: 4px 12px;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        justify-content: center;
+        background-color: rgba(141, 155, 168, 0.2);
+        border-radius: 10px;
+        color: #1071e3;
+        &:hover {
+          background: #1071e3;
+          color: white;
+        }
+      }
+    }
+  }
+}

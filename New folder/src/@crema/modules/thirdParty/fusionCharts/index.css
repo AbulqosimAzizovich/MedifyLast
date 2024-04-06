@@ -1,0 +1,35 @@
+.orderId {
+  color: rgb(121, 139, 255);
+  font-weight: 500;
+  display: inline-block;
+}
+
+.title__Color {
+  color: #8094ae !important;
+}
+
+th {
+  height: 60px !important;
+}
+
+.ant-table-cell:nth-child(1) {
+  color: rgb(121, 139, 255) !important;
+  cursor: pointer !important;
+  font-weight: 600 !important;
+}
+
+/* .ant-table-cell:nth-child(1):hover {
+  color: rgba(121, 139, 255, 0.6) !important;
+} */
+
+.ant-table-cell:nth-child(2) {
+  color: grey !important;
+}
+
+.ant-table-cell:nth-child(3) {
+  font-weight: 700 !important;
+}
+
+tr:hover {
+  opacity: 0.8 !important;
+}

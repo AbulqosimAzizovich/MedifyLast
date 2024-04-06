@@ -1,0 +1,139 @@
+.container {
+  max-width: 100%;
+  padding: 0;
+  margin: 0 auto;
+}
+
+.file_wrapper {
+}
+
+.file_title {
+  color: #364a63;
+  font-weight: 700;
+  font-size: 1.75rem;
+}
+
+.first__ {
+  margin: 20px auto;
+  display: flex;
+  align-items: start;
+  width: 100%;
+  flex-direction: column;
+}
+
+.folders {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 8px;
+}
+
+.folders1 {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0px 8px;
+  gap: 10px;
+}
+
+.first__ > h3 {
+  color: #364a63;
+  font-weight: 700;
+  font-size: 1.05rem;
+  width: 100%;
+}
+
+.folder_card {
+  width: calc(20% - 16px);
+  padding: 0.5rem 0.25rem;
+  margin: 8px;
+  background: #fff;
+  border: 1px solid #dbdfea;
+  border-radius: 4px;
+  display: grid;
+  place-content: center;
+}
+
+.folder_card:hover,
+.folder_card:hover > p {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: rgb(138, 163, 255);
+}
+
+.picture {
+  width: 100%;
+  height: 100%;
+}
+
+.card__2 {
+  width: calc(25% - 16px);
+  padding: 0.5rem 0.5rem;
+  background: #fff;
+  border: 1px solid #dbdfea;
+  /* display: flex; */
+}
+
+.card__2:hover,
+.card__2:hover > p {
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  color: rgb(138, 163, 255);
+}
+
+.frdr_1 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+
+.frdr_2 {
+  width: 25%;
+  height: 10%;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.frdr_2 p {
+  color: #364a63;
+  font-weight: 500;
+}
+
+.frdr_3 {
+  color: #526484;
+}
+
+.dots {
+  padding: 4px;
+  border-radius: 50%;
+}
+
+.dots:hover {
+  transition: all 0.3s ease;
+  background: #8e8e8e12;
+}
+
+.ff_2 {
+  color: #364a63;
+  font-weight: 700;
+  font-size: 0.85rem;
+  width: 100%;
+  border-top: 1px solid rgba(128, 128, 128, 0.172);
+  padding-top: 15px;
+}
+
+.sidebar__ {
+  padding: 20px 10px;
+  background: #ffffff !important;
+  border: 1px solid #00000034;
+}
+
+.main__ {
+  background: transparent !important;
+  padding: 20px 10px;
+}
